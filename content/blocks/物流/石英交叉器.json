@@ -1,0 +1,15 @@
+{
+    "type": "junction",
+    "name": "石英交叉器",
+    "description": "两条传送带的桥梁",
+    "health": 200,
+    "requirements": [
+        {
+            "item": "石英",
+            "amount": 18
+        }
+    ],
+    "category": "distribution",
+    "speed": 5,
+    "research": "石英路由器"
+}

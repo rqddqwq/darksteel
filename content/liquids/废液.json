@@ -1,0 +1,13 @@
+{
+
+  "name": "废液",
+  "description":"无任何可用价值"
+  "color": "#8c5200",
+  "lightColor": "#8B4726",
+  "flammability": 0,
+  "explosiveness": 0,
+  "viscosity": 0.9,
+  "heatCapacity": 10,
+  "temperature": 10,
+  "research": "硅钢"
+}

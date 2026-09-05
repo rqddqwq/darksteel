@@ -1,0 +1,36 @@
+{	
+    "type": "ThermalGenerator",
+	"name": "地热发电机",
+	"description":"awa",
+	"size": 2,
+	"health": 600,
+	"powerProduction": 0.3,
+	"generateEffect": "redgeneratespark",
+	"effectChance": 0.011,
+	"floating": true,
+	"attribute": "heat",
+	"minEfficiency": 4.5,//效率下限，低于则无法放置
+	"ambientSound": "loopHum",
+	"ambientSoundVolume": 0.06,
+	"destroyBulletSameTeam":false,
+	"category": "power",
+	"requirements": [
+			"铁/300",
+			"钢/300",
+			"silicon/400"
+		],
+	"research": {
+		"parent": "蒸汽发电机",
+		"objectives": [
+			{
+				"type": "OnSector",
+				"preset": "焦痕裂谷"
+			}
+		],
+		"requirements": [
+			"铁/300",
+			"钢/300",
+			"silicon/400"
+		],
+	},
+}

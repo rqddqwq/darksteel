@@ -1,0 +1,17 @@
+{
+    "type": "SolarGenerator",
+    "name": "太阳能版",
+    "description": "发电的",	
+    "health":200,
+    "size": 4,
+    "hasPower": true,
+    "powerProduction": 0.2,
+	"research": "玄钢核心",
+	"requirements": [
+	"玻璃/10"
+	"铁/30"
+    "钢/20"
+	]
+    "category": "power"
+ 
+}

@@ -1,0 +1,15 @@
+{
+  "type": "liquid",
+  "name": "蒸汽",
+  "gas": true,
+  "color": "FFFFFFFF",
+  "gasColor": "FFFFFFFF",
+  "barColor": "FFFFFFFF",
+  "lightColor": "00000000",
+  "flammability": 0,
+  "explosiveness": 0,
+  "viscosity": 0,
+  "heatCapacity": 27,
+  "temperature": 50,
+  "research": "钢"
+}

@@ -1,0 +1,15 @@
+{
+    "type": "Conduit",
+    "name": "玻璃导管",
+    "description": "比普通导管传输液体更快，且能储存更多液体",
+    "health": 110,
+    "liquidCapacity": 20,
+    "requirements": [
+        {
+            "item": "玻璃",
+            "amount": 3
+        }
+    ],
+    "category": "liquid",
+    "research": "玄钢核心"
+}

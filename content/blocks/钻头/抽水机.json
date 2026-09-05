@@ -1,0 +1,20 @@
+{
+	"name": "抽水机",
+	"type": "SolidPump",
+	"description": "使用热胀冷缩以获取地下水",
+	"health": 250,
+	"size": 2,
+	"hasLiquids": true,
+	"liquidCapacity": 30,
+     "requirements": [
+		"铁/10",
+	    "石英/30"
+    ],
+    "research": "工业钻头",
+	"pumpAmount": 0.1,
+	"rotateSpeed": 1.3,
+	"result": "water",
+	"baseEfficiency": 1,
+	"attribute": "water",
+	"category": "production"
+}

@@ -1,0 +1,12 @@
+{
+	"type": "Duct",
+	"name": "石英传送带",
+	"health": 120,
+	"requirements": [
+	"石英/1"
+	],
+	"category": "distribution",
+	"research":"玄钢核心",
+	"speed": 0.1,
+	"itemCapacity":2
+}

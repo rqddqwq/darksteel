@@ -1,0 +1,13 @@
+{
+	"type": "Router",
+	"name": "石英路由器",
+	"description": "一侧输入物品三面输出物品",
+	"speed":6.5
+	"health":40
+	"itemCapacity": 10,
+	"requirements": [
+		{"item": "石英", "amount": 5},
+		],
+	"category": "distribution",
+	"research": "石英传送带"
+}

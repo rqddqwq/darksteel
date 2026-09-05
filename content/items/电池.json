@@ -1,0 +1,12 @@
+{
+    "name": "电池",
+    "description": "介绍",
+    "details": "这个破玩意我用了几个小时才弄好",
+    "color": "#102038",
+    "explosiveness": 1,
+    "flammability": 1,
+    "radioactivity": 2,
+    "cost": 1,
+    "alwaysUnlocked": false,
+    "research": "玄钢"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "liquid",
+  "name": "东东",
+  "description":"“我没那么便宜”"
+  "color": "#0000CD ",
+  "lightColor": "#0000CD",
+  "flammability": 10000000000000000,
+  "explosiveness": 100000000000000000,
+  "viscosity": 0.9,
+  "heatCapacity": 10,
+  "temperature": 10,
+  "research": "玄钢"
+}

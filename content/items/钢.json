@@ -1,0 +1,13 @@
+{
+    "name": "钢",
+    "description": "介绍",
+    "details": "这个破玩意我用了几个小时才弄好",
+    "color": "#102038",
+    "explosiveness": 0,
+    "flammability": 0,
+    "radioactivity": 0,
+    "hardness": 0,
+    "cost": 1,
+    "alwaysUnlocked": false,
+    "research": "铁"
+}

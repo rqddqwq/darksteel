@@ -1,0 +1,14 @@
+{
+    "type": "PowerNode",
+    "name": "钢电力节点",
+    "description": "想不出来所以这要填什么简介，到底要填什么",
+    "health": 300,
+    "size": 1,
+    "maxNodes": 10,
+    "laserRange": 13,
+    "research": "太阳能板",
+    "requirements": [
+            "钢/50"
+        ]
+    "category": "power"
+}

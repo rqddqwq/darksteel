@@ -1,0 +1,27 @@
+{
+    "type": "unitFactory",
+    "name": "空军工厂",
+    "itemCapacity": 100,
+    "size": 3,
+    "consumes": {
+        "power": 2.1
+    },
+    "plans": [
+        {
+            "unit": "青浦",
+            "requirements": [
+                "钢/120",
+                "硅钢/100"
+            ],
+            "time": 600
+        }
+    ],
+    "research": {
+        "parent": "玄钢核心",
+    },
+    "requirements": [
+        "玄钢/50",
+        "硅钢/80"
+        ]
+    "category": "units"
+}

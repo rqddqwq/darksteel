@@ -1,0 +1,13 @@
+{
+
+  "name": "硫酸",
+  "description":"轻度腐蚀性"
+  "color": "#8c5200",
+  "lightColor": "#8B4726",
+  "flammability": 0,
+  "explosiveness": 0,
+  "viscosity": 0.9,
+  "heatCapacity": 10,
+  "temperature": 10,
+  "research": "玄钢"
+}

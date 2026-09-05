@@ -1,0 +1,17 @@
+{
+  "type": "liquid",
+  "name": "容器",
+  "description":"“我去你的”"
+  "color": "#6ecdec ",
+  "lightColor": "#c1e8f5",
+  "research": "嬴政"
+}
+/*        cryofluid = new Liquid("cryofluid", Color.valueOf("6ecdec")){{
+            heatCapacity = 0.9f;
+            temperature = 0.25f;
+            effect = StatusEffects.freezing;
+            lightColor = Color.valueOf("0097f5").a(0.2f);
+            boilPoint = 0.55f;
+            gasColor = Color.valueOf("c1e8f5");
+        }};
+*/

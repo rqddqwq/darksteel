@@ -1,0 +1,38 @@
+{
+  "type": "GenericCrafter",
+  "name": "玄钢压缩机",
+  "description": "石英，铁，水经过巨力压缩之后，形成玄钢",
+  "itemCapacity": 50,
+  "health": 1500,
+  "size": 3,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "liquidCapacity": 50,
+  "craftTime": 600,
+  "updateEffect": "smoke",
+  "consumes": {
+    "items": [
+      "铁/5",
+      "石英/4"
+      "钢/2"
+    ],
+    "liquids": [
+      {
+        "liquid": "water",
+        "amount": 0.6
+      }
+    ]
+  },
+  "outputItem": {
+    "item": "玄钢",
+    "amount": 1
+  },
+  "research": "钢熔炼炉",
+    "requirements": [
+      "石英/10",
+      "铁/30"
+      "钢/50"
+    ]
+  "category": "crafting"
+}

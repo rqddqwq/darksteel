@@ -1,0 +1,23 @@
+{
+"category": "effect",
+"description": "基地的核心。一旦被摧毁，此区块就会丢失。",
+"alwaysUnlocked": true,
+"description":"较为常用的核",//介绍
+"size": 3,
+"health": 3000,
+"armor": 0,
+"itemCapacity": 4000,
+"hasItems": true,
+"unitCapModifier": 10,
+"isFirstTier": true,
+"squareSprite": false,
+"unitType": "kl",
+"research": {
+"root": true,
+"name": "凯利斯",
+"planet": "凯利斯"
+},
+"requirements": [
+{"amount": 3000, "item": "玄钢"}
+]
+}

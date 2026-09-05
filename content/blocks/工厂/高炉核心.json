@@ -1,0 +1,13 @@
+{
+	"name": "高炉核心",
+	"health":450,
+	"description":"高炉无法直接放置在这里制造点击后有教程，不懂再在群里问",
+	"size":1,
+	"hasPower": true,
+	"requirements": [
+		"铁/60"
+		"石英/50"
+	],
+	"category": "defense",
+	"research": "玄钢压缩机"
+}

@@ -1,0 +1,13 @@
+{
+    "noLighting": false,
+    "addStartingItems": false,
+    "overrideLaunchDefaults": true,
+    "alwaysUnlocked": true,
+    "localizedName": "工业起点",
+    "description": "工业起点",
+    "planet": "凯利斯",
+    "sector": 0,
+    "captureWave": 20,
+    "difficulty": 0,
+    "research": "玄钢核心",
+}

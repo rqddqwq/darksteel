@@ -1,0 +1,43 @@
+{
+    "type":"ConsumeGenerator",
+    "name": "蒸汽发电机",
+    "description": "蒸汽发电",
+    "health": 800,
+    "powerProduction": 1,
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": true,
+    "buildCostMultiplier": 0.75,
+  	"ambientSound": "loopThoriumReactor",
+	"ambientSoundVolume": 1.2,
+    "drawer":{
+        "type":"DrawMulti",
+        "drawers":[
+            {
+                "type": "DrawRegion",
+                "suffix": "-bottom"
+            },
+            "DrawDefault",
+            {
+                "type":"DrawFlame",
+                "flameRadius": 0,
+                "flameRadiusIn": 0,
+                "flameRadiusMag": 0,
+                "flameRadiusInMag": 0
+            }
+        ]
+    },
+    "consumes": {
+        "liquid": {
+            "liquid": "蒸汽",
+            "amount": 1.5
+        }
+    },
+    "requirements": [
+        {"item": "钢", "amount": 20},
+        {"item": "石英", "amount": 10},
+        {"item": "铁", "amount": 25}
+    ],
+    "category": "power",
+    "research": "钢电力节点"
+}

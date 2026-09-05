@@ -1,0 +1,29 @@
+{
+	//"type":"GenericCrafter",
+	"name":"高炉",
+	"hasLiquids":false,
+	"hasItems":true,
+	"itemCapacity":50,
+	"health":800,
+	"craftTime":10,
+	"drawer":{
+		"type":"DrawMulti",
+		"drawers":[
+		    {
+                "type": "drawRegion",
+                "suffix": "-bottom"
+            },
+			"DrawDefault",
+		{"type":"DrawFlame",
+		"flameRadius": 0,
+		"flameRadiusIn": 0,
+		"flameRadiusMag": 0,
+		"flameRadiusInMag": 0}
+			]
+	},
+	"buildVisibility": "sandboxOnly",
+	"description":"总之这个研究出来你也放不了还得是老老实实的用多方块",
+	"size":4,
+	"category":"crafting",
+	"research": "高炉核心"
+}

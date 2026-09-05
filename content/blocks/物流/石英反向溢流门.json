@@ -1,0 +1,15 @@
+{
+    "type": "OverflowGate",
+    "name": "石英反向溢流门",
+    "description": "堵赛后流向前面",
+    "health": 200,
+    "requirements": [
+        {
+            "item": "石英",
+            "amount": 15
+        }
+    ],
+    "category": "distribution",
+    "research": "石英溢流门",
+    "invert": true
+}

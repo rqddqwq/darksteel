@@ -1,0 +1,36 @@
+{
+  "type": "Reconstructor",
+  "name": "工业级原型机重构工厂"
+  "category": "units",
+  "requirements": [
+    "玄钢/100","钢/80","硅钢/100"
+  ],
+  "size": 5,
+  "upgrades": [
+    [ "压抑","葬送" ]
+  ],
+  "consumes": {
+    "power": 2,
+    "items": {
+      "items": [ "silicon/60","硅钢/30" ]
+    },
+    "liquids": {
+      "liquids": [ "water/0.5" ]
+    }
+  },
+  "constructTime": 3000,
+  "solid": false,
+  "underBullets": true,
+  "hasLiquids": true,
+  "liquidCapacity": 40,
+  "research": {
+    "parent": "陆军工厂",
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "焦痕裂谷"
+      }
+    ]
+  },
+  "researchCostMultiplier": 0.1
+}

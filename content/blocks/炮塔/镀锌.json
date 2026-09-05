@@ -1,0 +1,66 @@
+{
+	"type": "ItemTurret",
+	"name": "镀锌",
+	"buildVisibility": "shown",
+	"targetAir": true,
+	"targetGround": true,
+	"health": 1300,
+	"size": 1,
+	"shootSound": "shootSmite",
+	"shootSoundVolume": 1.9,
+	"shake": 12,
+	"inaccuracy": 0,
+	"recoil": 6,
+	"recoilTime": 14,
+	"reload": 130,
+	"rotateSpeed": 3,
+	"range": 150,
+	"category": "turret",
+	"requirements": [
+			"铁/50"
+			"石英/25"
+		]
+	"research": {
+		"parent": "玄钢核心",
+	
+	},
+	"ammoTypes": {
+		"silicon": {
+			"type": "MissileBulletType",
+			"splashDamageRadius": 20,
+			"splashDamage": 30,
+			"speed": 4,
+			"damage": 10,
+			"backColor": "B0C4DE",
+			"frontColor": "E3E3E3",
+			"trailColor": "B0C4DE",
+			"lifetime": 100,
+			"homingPower": 0.1,
+			"homingRange": 80,
+			"width": 6,
+			"height": 6,
+			"ammoMultiplier": 2,
+			"hitEffect": "flakExplosion"
+		},
+		"铁": {
+			"makeFire": true,
+			"type": "MissileBulletType",
+			"splashDamageRadius": 30,
+			"splashDamage": 40,
+			"speed": 4,
+			"damage": 12,
+			"status": "burning",
+			"statusDuration": 300,
+			"backColor": "FFB90F",
+			"frontColor": "E3E3E3",
+			"trailColor": "FFB90F",
+			"lifetime": 80,
+			"homingPower": 0.03,
+			"homingRange": 40,
+			"width": 6,
+			"height": 6,
+			"ammoMultiplier": 2,
+			"hitEffect": "flakExplosion"
+		}
+	}
+}

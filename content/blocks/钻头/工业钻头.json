@@ -1,0 +1,37 @@
+{
+	"type": "Drill",
+	"name":"工业钻头",
+    "description": "由于是工业而不是军用，所以采集速度极其缓慢",
+    "health":160,
+    "itemCapacity":20,
+    "tier":2,
+    //钻头的开采等级
+    "drillTime":720,
+    //矿物开采耗时
+    "size": 2,
+    "group":"drills"
+    "hasLiquids": true,
+	"alwaysUnlocked":false,
+	"liquidCapacity":18,
+    "drawMineItem":true,
+    //是否在中心绘画所采矿物的颜色
+    "drillEffect": "mineHuge",
+    "rotateSpeed": 6,
+    "warmupSpeed": 0.5,
+    //钻头完全启动的速度(一除以(此数值*60)(单位/秒))
+	"consumes": {
+		"liquid": {
+			"liquid":"water",
+			"amount":0.08,
+			"booster": true,
+			//加速
+			"optional": true
+			//可选
+		}
+	}
+    "requirements": [
+        "石英/20"
+    ],
+    "research": "玄钢核心",
+    "category": "production"
+}

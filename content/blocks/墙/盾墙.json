@@ -1,0 +1,25 @@
+{
+  "type": "ShieldWall",
+  "name": "盾墙",
+  "description": "A wall with an energy shield that absorbs projectiles.",
+  "solid": true,
+  "health": 460,
+  "armor": 15.0,
+  "research": "石英墙"
+  "requirements": [
+  "玄钢/20"
+  "硅钢/40"
+  "铁/80"
+  ],
+  "category": "defense",
+  "buildTime": 328.8,
+  "buildVisibility": "shown",
+  "shieldHealth": 900.0,
+  "breakCooldown": 600.0,
+  "regenSpeed": 0.2,
+  "glowColor": "#ff75317f",
+  "lightningDamage": 20.0,
+  "lightningLength": 17,
+  "lightningColor": "#f3e979ff",
+  "chanceDeflect": 8.0
+}

@@ -1,0 +1,8 @@
+displayName: "玄钢重工"
+name: "玄钢重工"
+author: "容器"
+main: "darksteel.main"
+description: "未知"
+version: 0.07
+minGameVersion: 154
+java: true

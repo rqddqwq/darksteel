@@ -1,0 +1,14 @@
+{
+  "name": "硅墙",
+  "description": "保护己方建筑，抵御敌方攻击。",
+  "type": "Wall",
+  "health":700,
+  "armor":5,
+  "size":1 ,
+  "requirements": [ "silicon/4" ],
+  "category": "defense",
+  "research": {
+  "parent": "石英墙"
+   },
+	"researchCost": [ "silicon/40" ]
+}

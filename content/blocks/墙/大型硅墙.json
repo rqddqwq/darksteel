@@ -1,0 +1,11 @@
+{
+  "name": "大型硅墙",
+  "description": "保护己方建筑，抵御敌方攻击。",
+  "type": "Wall",
+  "health":2800,
+  "armor":5,
+  "size":2,
+  "requirements": [ "silicon/16" ],
+  "category": "defense",
+  "research": "硅墙"
+}

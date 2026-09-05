@@ -1,0 +1,22 @@
+{
+    "type": "GenericCrafter",
+    "name": "电弧炉",
+    "description": "将沙和石英炼为硅",
+    "requirements": ["钢/25"],
+    	"research": {
+	    "parent":"钢熔炼炉",//科技树前置
+	    }
+    "category": "crafting",
+    "health": 360,
+    "size": 2
+    "hasPower": true,
+    "liquidCapacity": 10.0,
+    "craftTime": 300.0,
+    "consumes": {
+        "power": 1,
+        "items": ["sand/2","石英/1"]
+    },
+    "outputItems": ["silicon/2"],
+    "craftEffect": "smeltsmoke",
+    "warmupSpeed": 0.019,
+}

@@ -1,0 +1,95 @@
+{
+    "type": "ConsumeGenerator",
+	"name": "裂变反应堆",
+	"description": "通过裂变体和水的反应以发电",
+	"size": 4,
+	"health": 2000,
+	"liquidCapacity":180,
+	"itemCapacity": 100,
+	"hasItems": true,
+	"hasLiquids": true,
+	"outputsPower": true
+	"hasPower": true
+	"lightColor": "FFFFFF",
+	"explosionPuddles":10
+	  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+	  {
+	  "type": "DrawRegion",
+	  "suffix": "-light",
+	  "spinSprite": true,
+	  "rotateSpeed":-4,
+	},
+      {
+        "type": "DrawPlasma",
+        "plasma1": "d1efffaa",
+        "plasma2": "9eabf766"
+      },
+      {
+        "type": "DrawDefault"
+      },
+    ]
+  },
+	"explosionPuddleRange":240
+	"explosionPuddleLiquid":"废液"
+	"explosionPuddleAmount":1000
+	"explosionShake":5,
+	"explosionShakeDuration":200,
+	"explosionRadius":20,
+	"explosionDamage":500,
+	"explodeEffect": {
+		"type": "MultiEffect",
+		"effects": [
+			{
+				"type": "WaveEffect",
+				"lifetime": 20,
+				"sizeFrom": 0,
+				"sizeTo": 320,
+				"strokeFrom": 18,
+				"strokeTo": 0,
+				"colorFrom": "EEC591",
+				"colorTo": "FFFFFF"
+			},
+			{
+				"type": "ParticleEffect",
+				"region":"玄钢重工-杂鱼",
+				"particles": 1,
+				"sizeFrom": 400,
+				"sizeTo": 0,
+				"sizeInterp":"pow10In",
+				"length": 0,
+				"baseLength": 0,
+				"lifetime": 600,
+				"colorFrom": "FFFFFF",
+				"colorTo": "FF5B5B"
+			}
+		]
+	},
+    	"powerProduction":8
+    	"explodeOnFull":true
+	"consumes":{
+		"liquids": {
+		    "liquids":[
+		    	{"liquid": "裂变体","amount":1}
+		        {"liquid": "water","amount" : 0.2}
+	        ]
+},
+	}
+	"outputLiquid":{"liquid":"废液","amount":1}
+  "requirements": [
+    "玄钢/20"
+	"silicon/30"
+	"钢/20"
+	"玻璃/30"
+	"硅钢/10"
+	]
+	"category": "power",
+	"research": {
+		"parent": "风力发电机"
+	}
+	}

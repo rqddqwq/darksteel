@@ -1,0 +1,63 @@
+{
+  "type": "mech",
+  "name": "葬送",
+  "description": "左火右炮",
+  "health": 800,
+  "speed": 2,
+  "hitSize": 10,	
+  "research": {
+		"parent": "压抑"
+	},
+  "weapons": [
+    {
+      "name": "火",
+      "x": 6,
+      "top": false,
+      "shootSound": "shootFlame",
+      "shootY": 2,
+      "reload": 22,
+      "recoil": 1,
+      "mirror": false,
+      "ejectEffect": "none",
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 180,
+        "speed": 90,
+        "ammoMultiplier": 3,
+        "hitSize": 7,
+        "lifetime": 2,
+        "pierce": true,
+        "pierceBuilding": true,
+        "pierceCap": 2,
+        "statusDuration": 300,
+        "shootEffect": "shootSmallFlame",
+        "hitEffect": "hitFlameSmall",
+        "despawnEffect": "none",
+        "status": "burning",
+        "keepVelocity": false,
+        "hittable": false
+      }
+    },
+    {
+      "name": "弹",
+      "x": -6,
+      "y": 0,
+      "shootY": 6,
+      "reload": 40,
+      "alternate": false,
+      "mirror": false,
+      "ejectEffect": "casing2",
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 180,
+        "speed": 90,
+        "lifetime": 2,
+        "width": 10,
+        "height": 16,
+        "hitSize": 8,
+        "splashDamage": 12,
+        "splashDamageRadius": 10
+      }
+    }
+  ]
+}

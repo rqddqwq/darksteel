@@ -1,0 +1,15 @@
+{
+    "name":"铁",
+    "description":"一种银白色物品，在工业上作品极高，是不可或缺的工业材料之一。",
+    "details":"无在自然界中保持原样，生成矿需要加工后还原成铁。",
+    "color":"ffffff",
+    "explosiveness":0,
+    "flammability":0,
+    "radioactivity":0,
+    "charge": 0,
+    "hardness":0,
+    "cost":2,
+    "healthScaling": 0,
+    "alwaysUnlocked":false,
+    "research": "石英",
+}

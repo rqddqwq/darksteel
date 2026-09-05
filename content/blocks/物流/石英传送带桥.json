@@ -1,0 +1,20 @@
+{
+    "type": "ItemBridge",
+    "name": "石英带桥",
+    "description": "跨越任意地形或建筑瞬时运输物品，比传送带桥范围更大\n30格超远距离",
+    "health": 120,
+    "range": 8,
+    "transportTime": 3,
+    "requirements": [
+        {
+            "item": "石英",
+            "amount": 10
+        },
+        {
+            "item": "铁",
+            "amount": 10
+        }
+    ],
+    "category": "distribution",
+    "research": "石英传送带"
+}

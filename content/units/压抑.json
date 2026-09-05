@@ -1,0 +1,63 @@
+{
+	"type": "mech",
+	"name": "压抑",
+	"description": "@容器 描述：你被压制了@容器 介绍:陆军单位的原型机，各项属性较为均衡",
+	"hitSize": 12,
+	"canDrown": false,
+	"armor": 12,
+	"speed": 1.52,
+	"rotateSpeed": 1.6,
+	"baseRotateSpeed": 1.5,
+	"health": 250,
+	"mechStepParticles": true,
+	"mechFrontSway": 0.4,
+	"mechSideSway": 0.2,
+    "immunities": [
+		"压制"
+	],
+	"researchCostMultiplier": 0.6,
+	"research": {
+		"parent": "陆军工厂"
+	},
+	"weapons": [
+		{
+			"name": "武器1",
+			"reload": 5.5,
+			"shake": 0,
+			"recoil": 0,
+			"x": 7,
+			"y": -1,
+			"shootX": 0,
+			"shootY": 7,
+			"rotate": false,
+			"top": false,
+			"inaccuracy": 0.5,
+			"shootSound": "shootSpectre",
+			"alternate": true,
+			"ejectEffect": "none",
+			"shootCone": 15,
+		"bullet": {
+	"damage": 20,
+	"splashDamage": 10,
+	"splashDamageRadius": 20,
+	"pierce": true,
+	"pierceBuilding": true,
+	"armorMultiplier": 1,
+	"pierceCap": 10,
+	"speed": 6,
+	"lifetime": 20,
+	"status":"压制",
+	"statusDuration":60,
+	"hitSound": "none",
+	"shootEffect": "none",
+	"smokeEffect": "none",
+	"trailLength": 0,
+	"trailWidth": 0,
+	"width": 12,
+	"height": 33,
+	"despawnEffect": "none"
+}
+
+		}
+	]
+}

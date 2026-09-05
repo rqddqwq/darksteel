@@ -1,0 +1,19 @@
+{
+   "type": "Wall",
+   "name": "石英墙"
+   "description": "简介",
+   "health": 500,
+   "size": 1,
+   "alwaysReplace": true,
+   "solid": true,
+   "baseExplosiveness": 0,
+   "breakSound": "boom",
+   "requirements": [
+      {
+         "item": "石英",
+         "amount": 10
+      }
+   ],
+   "category": "defense",
+   "research": "玄钢核心"
+}

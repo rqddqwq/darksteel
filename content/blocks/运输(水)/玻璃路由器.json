@@ -1,0 +1,14 @@
+{
+    "type":"LiquidRouter",
+    "name":"玻璃路由器",
+    "description": "一个方向输入，向三个方向分配液体",
+    "size":1,
+    "health": 50,
+    "liquidCapacity": 30,
+    "insulated":true,
+    "requirements": [
+	{"item": "玻璃", "amount": 8}
+	],
+	"category": "liquid",
+    "research":"玻璃导管"
+    }

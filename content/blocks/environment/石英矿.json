@@ -1,0 +1,7 @@
+{
+  "type": "OreBlock",//类型
+  "itemDrop": "石英",//掉落物
+  "variants": 3,//贴图变化数
+  "oreDefault": false,//默认矿物
+  "mapColor": "#F5F0F0",//小地图上显示颜色
+}

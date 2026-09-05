@@ -1,0 +1,17 @@
+{
+  "type": "Battery",
+  "name": "蓄电池",
+  "description": "可存电量",
+  "details": "最下面的介绍",
+  "size": 2,
+  "health": 100,
+  "research": "蒸汽发电机",
+  "requirements": [
+      "钢/10"
+      "电池/5"
+	]
+    "consumes": {
+    "powerBuffered": 1000
+  },
+  "category": "power"
+}

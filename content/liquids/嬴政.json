@@ -1,0 +1,19 @@
+{
+  "type": "liquid",
+  "name": "嬴政",
+  "description":"“何意味”"
+  "color": "#6ecdec ",
+  "lightColor": "#c1e8f5",
+  "heatCapacity": 0.9,
+  "temperature": 0.26,
+  "research": "东东"
+}
+/*        cryofluid = new Liquid("cryofluid", Color.valueOf("6ecdec")){{
+            heatCapacity = 0.9f;
+            temperature = 0.25f;
+            effect = StatusEffects.freezing;
+            lightColor = Color.valueOf("0097f5").a(0.2f);
+            boilPoint = 0.55f;
+            gasColor = Color.valueOf("c1e8f5");
+        }};
+*/

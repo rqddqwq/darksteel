@@ -1,0 +1,13 @@
+{
+    "noLighting": false,
+    "addStartingItems": false,
+    "overrideLaunchDefaults": true,
+    "alwaysUnlocked": false,
+    "localizedName": "焦痕裂谷",
+    "description": "awa",
+    "planet": "凯利斯",
+    "sector": 1,
+    "captureWave": 20,
+    "difficulty": 0,
+    "research": "工业起点",
+    }

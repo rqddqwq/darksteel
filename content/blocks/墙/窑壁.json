@@ -1,0 +1,12 @@
+{
+    "type": "wall"
+	"name": "窑壁",
+	"health": 300,
+	"requirements": [
+		"silicon/25",
+		"铁/25"
+	],
+	"size": 1,
+	"category": "defense",
+	"research": "高炉核心"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "GenericCrafter",
+  "name": "钢熔炼炉",
+  "description": "基本",
+  "itemCapacity": 10,
+  "health": 1200,
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "liquidCapacity": 20,
+  "craftTime": 120,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "items": [
+      "石英/2"
+      "铁/4"
+    ]
+  },
+  "outputItem": {
+    "item": "钢",
+    "amount": 1
+  },
+	"research": "玄钢核心",	
+	"buildCostMultiplier": 0.58,
+	"requirements": [
+	"铁/10",
+	"石英/30",
+	],
+  "category": "crafting",
+}

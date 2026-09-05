@@ -1,0 +1,26 @@
+{
+    "type": "GenericCrafter",
+    "name": "玻璃熔炼炉",
+    "description": "将沙子和水融合加热形成玻璃",
+    "requirements": ["石英/25","铁/30"],
+    	"research": {
+	    "parent":"钢熔炼炉",//科技树前置
+	    }
+    "category": "crafting",
+    "health": 360,
+    "size": 2
+    "liquidCapacity": 10.0,
+    "craftTime": 240.0,
+    "consumes": {
+        "items": ["sand/2"]
+        "liquids": [
+        {
+        "liquid": "water",
+        "amount": 0.2
+        }
+        ]
+    }
+    "outputItems": ["玻璃/2"],
+    "craftEffect": "smeltsmoke",
+    "warmupSpeed": 0.019,
+}

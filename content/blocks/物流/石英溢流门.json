@@ -1,0 +1,11 @@
+{
+	"type": "OverflowGate",
+	"name": "石英溢流门",
+	"description": "堵赛后流向两侧",
+	"health":200,
+	"requirements": [
+		{"item": "石英", "amount": 15}
+		],
+	"category": "distribution",
+	"research": "石英路由器"
+}

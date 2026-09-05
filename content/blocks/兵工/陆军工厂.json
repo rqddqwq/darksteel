@@ -1,0 +1,35 @@
+{
+    "type": "unitFactory",
+    "name": "陆军工厂",
+    "itemCapacity": 100,
+    "size": 3,
+    "consumes": {
+        "power": 2
+    },
+    "plans": [
+        {
+            "unit": "压抑",
+            "requirements": [
+                "钢/120",
+                "硅钢/100"
+            ],
+            "time": 1200
+        },
+        {
+            "unit": "杀戮",
+            "requirements": [
+                "钢/120",
+                "玄钢/100"
+            ],
+            "time": 560
+        }
+    ],
+    "research": {
+        "parent": "玄钢核心",
+    },
+    "requirements": [
+        "玄钢/50",
+        "硅钢/80"
+        ]
+    "category": "units"
+}

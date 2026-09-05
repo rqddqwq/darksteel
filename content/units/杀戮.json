@@ -1,0 +1,40 @@
+{
+  "type": "mech",
+  "name": "杀戮",
+  "description": "咻",
+  "health": 800,
+  "speed": 2,
+  "hitSize": 10,
+  "research": {
+    "parent": "葬送"
+  },
+  "weapons": [
+    {
+      "shootSound": "shootCorvus",
+      "chargeSound": "chargeCorvus",
+      "top": false,
+      "mirror": false,
+      "shake": 4,
+      "shootY": 5,
+      "x": 0,
+      "y": 0,
+      "reload": 60,
+      "recoil": 0,
+      "cooldownTime": 100,
+      "parentizeEffects": true,
+      "bullet": {
+        "type": "LaserBulletType",
+        "length": 100,
+        "damage": 80,
+        "width": 75,
+        "lifetime": 35,
+        "largeHit": true,
+        "lightColor": "#55ff88",
+        "chargeEffect": "greenLaserCharge",
+        "healPercent": 25,
+        "collidesTeam": true,
+        "colors": ["#55ff8866", "#55ff88", "#ffffff"]
+      }
+    }
+  ]
+}
