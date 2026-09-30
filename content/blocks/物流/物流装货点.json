@@ -1,0 +1,26 @@
+{
+    "type": "UnitCargoLoader",
+    "name": "物流装货点",
+    "description": "生产一只机器人搬运物品",
+    "health": 300,
+    "size": 2,
+    "hasItems": true,
+    "itemCapacity": 200,
+    "unitType": "搬运",
+	"research": {
+	    "parent":"石英传送带",
+    },
+    "requirements": [
+      "塑料/10",
+      "铁/100",
+      "电路板/10",
+      "钢/100"
+	]
+	"researchCost": [
+      "塑料/10",
+      "铁/100",
+      "电路板/10",
+      "钢/100"
+	]
+  
+}

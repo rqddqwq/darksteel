@@ -65,7 +65,6 @@ function showCreditsRoll(){
 
     const delaySec = 0.4;
     dialog.shown(run(()=>{
-        // 逐行打印，循环批量定时器
         for(let i=0; i < creditLines.length; i++){
             (function(idx){
                 Timer.schedule(run(()=>{

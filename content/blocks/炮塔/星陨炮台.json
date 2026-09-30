@@ -117,8 +117,8 @@
     },
     "research": "镀锌",
     "requirements": [
-        "玄钢/20",
-        "silicon/80"
+        "钢/20",
+        "silicon/40"
     ],
     "category": "turret",
     "buildTime": 300.0,

@@ -10,6 +10,21 @@
   "liquidCapacity": 20,
   "craftTime": 120,
   "updateEffect": "smeltsmoke",
+  "drawer":{
+		"type":"DrawMulti",
+		"drawers":[
+		    {
+                "type": "drawRegion",
+                "suffix": "-top"
+            },
+			"DrawDefault",
+		{"type":"DrawFlame",
+		"flameRadius": 0,
+		"flameRadiusIn": 0,
+		"flameRadiusMag": 0,
+		"flameRadiusInMag": 0}
+			]
+	},
   "consumes": {
     "items": [
       "石英/2"

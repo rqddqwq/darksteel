@@ -1,0 +1,27 @@
+{
+	"name":"小型计算机",
+	"range":80,
+	"instructionsPerTick":2,
+	"size":2,
+	"health":50,
+	"category": "logic",
+	"requirements":[
+		"铁/50",
+		"钢/50",
+		"silicon/80",
+		],
+		"research": {
+		"parent":"玄钢核心",
+		"requirements":[
+		"铁/50",
+		"钢/50",
+		"silicon/80",
+		],
+		"objectives": [
+			{
+				"type": "OnSector",
+				"preset": "前沿阵地"
+			}
+		]
+	},
+}

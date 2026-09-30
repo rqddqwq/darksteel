@@ -31,7 +31,8 @@
 	}
     "requirements": [
         "石英/20"
-    ],
+    ],  
+    "researchCost": ["石英/50"]
     "research": "玄钢核心",
     "category": "production"
 }

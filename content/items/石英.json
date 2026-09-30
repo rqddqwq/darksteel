@@ -10,5 +10,5 @@
     "cost":2,
     "healthScaling": 0,
     "alwaysUnlocked":false,
-    "research": "玄钢核心",
+    //"research": "玄钢核心",
 }

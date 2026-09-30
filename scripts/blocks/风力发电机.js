@@ -30,8 +30,7 @@ const 风力发电机 = extend(ConsumeGenerator, '风力发电机', {
             }
         }));
     },
-
-    setBars() {
+     setBars() {
 		this.super$setBars();
 		this.addBar("heat", func(e => new Bar(
 			prov(() => "效率"+r(e.geteff()*100,2)+"%"),

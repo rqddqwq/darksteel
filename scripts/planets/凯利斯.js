@@ -1,4 +1,4 @@
-const blocks = require("blocks/玄钢核心");
+const blocks = require("blocks/玄钢核心")
 const lib = require("base/lib");
 const 凯利斯 = new Planet("凯利斯", Planets.sun, 1, 1.5);
 凯利斯.meshLoader = prov(() => new MultiMesh(
@@ -37,3 +37,4 @@ new NoiseMesh(凯利斯, 28, 1, Color.valueOf("#205899"),1 , 20, 0.7, 2, 0.28)
 凯利斯.lightColor = Color.valueOf("#0E1C30");    
 凯利斯.iconColor = Color.valueOf("#205899");       
 //凯利斯.hiddenItems.addAll(Items.serpuloItems).remove(Items.erekirItems);
+module.exports = { 凯利斯: 凯利斯 };

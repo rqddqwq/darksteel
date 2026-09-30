@@ -1,0 +1,27 @@
+/*{
+    "type": "mech",
+    "name": "供货单位",
+    "health": 5000,
+    "speed": 1.2,
+    "hitSize": 32,
+    "armor": 5,
+    "flying": true,
+    "lowAltitude": false,
+    "range": 0,
+    "itemCapacity": 3000,
+    "playerControllable": true,
+    "useUnitCap": false,
+    "targetable": true,
+    "hittable": true,
+    "logicControllable": true,
+    "engineOffset": 12,
+    "engineSize": 5,
+    "isEnemy": false,
+    "abilities": [
+        {
+            "type": "darksteel.content.ShieldGenerator",
+            "range": 80,
+            "supplyRate": 1
+        }
+    ]
+}

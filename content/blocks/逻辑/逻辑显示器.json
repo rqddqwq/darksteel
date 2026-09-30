@@ -1,0 +1,13 @@
+{
+    "category": "logic",
+    "displaySize": 82,
+    "description": "显示大小128*128像素点",
+    "size": 3,
+    "requirements": [
+		"铁/50",
+		"钢/50",
+		"silicon/80",
+    ],
+    "research": "开关",
+    "name": "逻辑显示器"
+}

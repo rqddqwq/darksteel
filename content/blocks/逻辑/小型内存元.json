@@ -1,0 +1,17 @@
+{
+	"memoryCapacity":128,
+	"size":1,
+	"armor":1
+	"health":100,
+	"name":"小型内存元",
+	"description":"存储处理器的信息。"
+	"category": "logic",
+	"requirements": [
+		"铁/50",
+		"钢/50",
+		"silicon/80",
+	],
+	"research": {
+		"parent":"开关",
+	},
+}

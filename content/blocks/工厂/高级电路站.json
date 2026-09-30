@@ -1,0 +1,19 @@
+{
+    "type": "GenericCrafter",
+    "name": "高级电路站",
+    "description": "进步不是一瞬间",
+    "requirements": ["钢/25"],
+    	"research": {
+	    "parent":"硅钢制造机",//科技树前置
+	    }
+    "category": "crafting",
+    "health": 360,
+    "size": 3,
+    "craftTime": 300.0,
+    "consumes": {
+        "items": ["钢/2","铁/1","塑料/4"]
+    },
+    "outputItems": ["电路板/2"],
+    "craftEffect": "smeltsmoke",
+    "warmupSpeed": 0.019,
+}

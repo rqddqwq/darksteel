@@ -15,10 +15,6 @@
     "engineOffset": 6.5,
     "hitSize": 9,
     "lowAltitude": true,
-    "ammoType": {
-        "type": "PowerAmmoType",
-        "value": 900
-    },
     "mineTier": 2,
     "mineSpeed": 3.5,
     "mineFloor": true,

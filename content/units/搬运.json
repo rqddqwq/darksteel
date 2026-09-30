@@ -1,0 +1,16 @@
+{
+    "type": "tether",
+    "name": "搬运",
+    "description": "以你现在的工业水平，能做到就不错了至少不用像传送带一样拉的特别长",
+    "speed": 2,
+    "drag": 0.1,
+    "flying": true,
+    "rotateSpeed": 100,
+    "hitSize": 15,
+    "health": 150,
+    "itemCapacity": 100,
+    "isEnemy": false,
+    "outlineColor": "2C2A35FF",
+    "engineSize": 0,
+    "defaultController": "CargoAI"
+}

@@ -1,9 +1,4 @@
-//但其实彩蛋在游戏中都可以找到，但是你为什么还是打算解包呢我知道你看到了这句话
-//有本事就别用AI,自己从游戏中找彩蛋没本事的话，那你还是用吧
-var b42 = "01100001";
-var b17 = "01101001";
-var b79 = "01110000";
-var b63 = "01111001";
+//木棍
 var b8 = "01101001";
 var b95 = "01101110";
 var b31 = "01100100";
@@ -20,6 +15,33 @@ var b91 = "01110100";
 var b57 = "01110101";
 var b27 = "00100000";
 var b74 = "01110100";
+var b86 = "00100000";
+var b20 = "01110000";
+var b103 = "01101001";
+var b41 = "00100000";
+var b35 = "01101111";
+var b67 = "00100000";
+//牙签
+var b92 = "00100000";
+var b1 = "01010111";
+var b54 = "01100110";
+var b15 = "01110100";
+var b30 = "00100000";
+var b107 = "01111001";
+var b39 = "01100101";
+var fffd = "00100111";
+var ggxcc = "00";
+var b61 = "01100101";
+var b94 = "01101111";
+var b56 = "01110010";
+var b10 = "01100111";
+var b34 = "01100011";
+var b23 = "01101110";
+var b105 = "01100001";
+var b42 = "01100001";
+var b17 = "01101001";
+var b79 = "01110000";
+var b63 = "01111001";
 var b100 = "01101111";
 var b4 = "01110111";
 var b60 = "01110100";
@@ -85,34 +107,20 @@ var b26 = "00101100";
 var b99 = "01110100";
 var b48 = "01100101";
 var b64 = "00100000";
-var b86 = "00100000";
-var b20 = "01110000";
-var b103 = "01101001";
-var b41 = "00100000";
-var b35 = "01101111";
-var b67 = "00100000";
-var b92 = "00100000";
-var b1 = "01010111";
-var b54 = "01100110";
-var b15 = "01110100";
-var b30 = "00100000";
-var b107 = "01111001";
-var b39 = "01100101";
-var b61 = "01100101";
-var b94 = "01101111";
-var b56 = "01110010";
-var b10 = "01100111";
-var b34 = "01100011";
-var b23 = "01101110";
-var b105 = "01100001";
 var b2 = "01100101";
 var b32 = "01101001";
 var b37 = "01100101";
+var a3 = "Didprehistoricpeoplereall"
+var dd3 ="yexistWhataretheskillsofthemonstersonthisplanetAtleastbeforewemaintainedacooperative"
+var hhf4 = "statebut nowduetotheruleoftheenemytheenemyisourenemy"
+var mm = fffd+" "+ggxcc;
 var xg82s = 1
 var qp47d = 0
 var rz91k = 77
+//左下角有小剧场
 var vm26f = 234
 var wk59z = "59673";
+var pingk = a3+" "+dd3+" "+hhf4;
 var fl05z =
 b1+" "+b2+" "+b3+" "+b4+" "+b5+" "+b6+" "+b7+" "+b8+" "+b9+" "+b10+" "+
 b11+" "+b12+" "+b13+" "+b14+" "+b15+" "+b16+" "+b17+" "+b18+" "+b19+" "+b20+" "+
@@ -128,6 +136,7 @@ b101+" "+b102+" "+b103+" "+b104+" "+b105+" "+b106+" "+b107;
 module.exports = {
     unlockCode: wk59z,
     targetBin: fl05z,
-    newUnlockCode: "0010011100",
-    newTargetBin: "DidprehistoricpeoplereallyexistWhataretheskillsofthemonstersonthisplanetAtleastbeforewemaintainedacooperative statebut nowduetotheruleoftheenemytheenemyisourenemy"
+    newUnlockCode: mm,
+    newTargetBin: pingk,
 }
+//你被骗了

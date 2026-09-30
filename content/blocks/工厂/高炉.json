@@ -1,11 +1,11 @@
 {
-	//"type":"GenericCrafter",
+	"type": "MultiCraft.MultiCrafter",
 	"name":"高炉",
-	"hasLiquids":false,
+	"hasLiquids":true,
+	"liquidCapacity":20,
 	"hasItems":true,
 	"itemCapacity":50,
 	"health":800,
-	"craftTime":10,
 	"drawer":{
 		"type":"DrawMulti",
 		"drawers":[
@@ -14,15 +14,82 @@
                 "suffix": "-bottom"
             },
 			"DrawDefault",
-		{"type":"DrawFlame",
-		"flameRadius": 0,
-		"flameRadiusIn": 0,
-		"flameRadiusMag": 0,
-		"flameRadiusInMag": 0}
-			]
+			{
+				"type":"DrawFlame",
+				"flameRadius": 0,
+				"flameRadiusIn": 0,
+				"flameRadiusMag": 0,
+				"flameRadiusInMag": 0
+			}
+		]
 	},
+	"recipe": [
+	{
+         "inputItems": [
+             {"item":"sand","amount":2}
+           ],
+           "inputLiquids": [
+             {"liquid":"water","amount":0.2}
+           ],
+           "inputPower": 0.5
+           "outputItems": [
+             {"item":"玻璃","amount":1}
+           ]
+         "craftTime":60,
+         "weight":1
+       },
+       	{
+         "inputItems": [
+             {"item":"石英","amount":2},
+             {"item":"铁","amount":3}
+           ],
+           "inputPower": 1
+           "outputItems": [
+             {"item":"钢","amount":2}
+           ]
+         "craftTime":240,
+         "weight":1
+       },
+       {
+         "inputItems": [
+             {"item":"sand","amount":2},
+             {"item":"石英","amount":4}
+           ],
+           "inputPower": 2
+         "outputItems": [
+             {"item":"silicon","amount":8}
+           ]
+         "craftTime":240,
+         "weight":1
+       },
+       {
+         "inputItems": [
+             {"item":"silicon","amount":2},
+             {"item":"钢","amount":4}
+           ],
+           "inputPower": 3
+         "outputItems": [
+             {"item":"硅钢","amount":2}
+           ]
+         "craftTime":360,
+         "weight":1
+       },
+       {
+         "inputItems": [
+             {"item":"铁","amount":5},
+             {"item":"石英","amount":4},
+             {"item":"钢","amount":2}
+           ],
+           "inputPower": 3
+         "outputItems": [
+             {"item":"玄钢","amount":6}
+           ]
+         "craftTime":480,
+         "weight":1
+       }
+	],
 	"buildVisibility": "sandboxOnly",
-	"description":"总之这个研究出来你也放不了还得是老老实实的用多方块",
+	"description": "总之这个研究出来你也放不了还得是老老实实的用多方块",
 	"size":4,
 	"category":"crafting",
 	"research": "高炉核心"

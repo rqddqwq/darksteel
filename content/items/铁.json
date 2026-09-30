@@ -11,5 +11,5 @@
     "cost":2,
     "healthScaling": 0,
     "alwaysUnlocked":false,
-    "research": "石英",
+  //  "research": "石英",
 }

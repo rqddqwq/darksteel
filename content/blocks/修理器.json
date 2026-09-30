@@ -1,0 +1,24 @@
+{
+	"type": "MendProjector",
+	"name": "修理器",
+	"health": 900,
+	"size": 2,
+	"range": 60,
+	"reload": 6000,
+	"healPercent": 3,
+	"phaseBoost": 7.5,
+	"phaseRangeBoost": 0,
+	"canOverdrive": false,
+	"useTime": 500,
+	"consumes": {
+		"power": 1,
+	},
+	"requirements": [
+		"silicon/150",
+		"钢/80",
+		"玄钢/45",
+		"硅钢/120"
+	],
+	"category": "effect",
+	"research": "玄钢核心"
+}

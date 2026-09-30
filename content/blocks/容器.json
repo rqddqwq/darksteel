@@ -1,0 +1,14 @@
+{
+	"type": "StorageBlock",
+	"description": "里面到底装了什么",
+	"name": "容器",
+	"size": 1,
+	"research": {
+	"parent":"石英传送带",
+	"requirements": [
+		"石英/20"
+	]
+    },
+	"itemCapacity": 1,
+	"category": "effect"
+}

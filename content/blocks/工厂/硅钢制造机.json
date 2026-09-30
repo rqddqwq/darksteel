@@ -4,7 +4,7 @@
   "description": "介绍要写啥",
   "itemCapacity": 50,
   "health": 1200,
-  "size": 3,
+  "size": 2,
   "hasPower": true,
   "hasItems": true,
   "hasLiquids": true,

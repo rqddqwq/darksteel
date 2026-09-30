@@ -1,0 +1,20 @@
+{
+    "type": "UnitCargoUnloadPoint",
+    "name": "物流卸货点",
+    "description": "卸货点",
+    "health": 160,
+    "size": 2,
+    "hasItems": true,
+    "itemCapacity": 200,
+	"research": {
+	    "parent":"物流装货点",
+    },
+    "requirements": [
+        "钢/80",
+        "塑料/10"
+	]
+	    "researchCost": [
+        "钢/80",
+        "塑料/10"
+	]
+}

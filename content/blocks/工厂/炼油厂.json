@@ -1,0 +1,38 @@
+{
+  "type": "GenericCrafter",
+  "name": "炼油厂",
+  "description": "异",
+  "itemCapacity": 50,
+  "health": 1500,
+  "size": 3,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "liquidCapacity": 50,
+  "updateEffect": "smoke",
+  "consumes": {
+    "liquids": [
+      {
+        "liquid": "water",
+        "amount": 0.1
+      },
+      {
+        "liquid": "oil",
+        "amount": 0.2
+      }
+    ]
+  },
+  "outputLiquids": [
+    {
+      "liquid": "石油气",
+      "amount": 0.1
+    }
+  ],
+  "research": "钢熔炼炉",
+  "requirements": [
+    "石英/10",
+    "铁/30",
+    "钢/50"
+  ],
+  "category": "crafting"
+}

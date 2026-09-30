@@ -1,4 +1,5 @@
 {
+	"type": "MultiCraft.MultiCrafter",
 	"name":"化工厂",
 	"description": "进行一些大型的制造",
 	"health": 360,
@@ -23,6 +24,64 @@
 			]
 	},
 	"liquidCapacity":480,
+    "recipe": [
+  {
+    "inputLiquids": [
+      {"liquid": "玄钢重工-石油气", "amount": 10},
+      {"liquid": "water", "amount": 0.2}
+    ],
+    "inputPower": 1,
+    "outputItems": [
+      {"item": "玄钢重工-硫磺", "amount": 2}
+    ],
+    "craftTime": 60,
+    "weight": 1
+  },
+  {
+    "inputItems": [
+      {"item": "玄钢重工-钢", "amount": 10},
+      {"item": "玄钢重工-铁", "amount": 20}
+    ],
+    "inputLiquids": [
+      {"liquid": "玄钢重工-硫酸", "amount": 10}
+    ],
+    "inputPower": 1,
+    "outputItems": [
+      {"item": "玄钢重工-电池", "amount": 1}
+    ],
+    "craftTime": 120,
+    "weight": 1
+  },
+  {
+    "inputItems": [
+      {"item": "玄钢重工-硫磺", "amount": 5},
+      {"item": "玄钢重工-铁", "amount": 20}
+    ],
+    "inputLiquids": [
+      {"liquid": "water", "amount": 0.6}
+    ],
+    "inputPower": 1,
+    "outputLiquids": [
+      {"liquid": "玄钢重工-硫酸", "amount": 0.6}
+    ],
+    "craftTime": 120,
+    "weight": 1
+  },
+  {
+    "inputItems": [
+      {"item": "玄钢重工-催化剂", "amount": 5}
+    ],
+    "inputLiquids": [
+      {"liquid": "玄钢重工-石油气", "amount": 0.6}
+    ],
+    "inputPower": 1,
+    "outputItems": [
+      {"item": "玄钢重工-塑料", "amount": 5}
+    ],
+    "craftTime": 120,
+    "weight": 1
+  }
+],
 	"itemCapacity":50,
 	"ambientSound": "steam",
 	"ambientSoundVolume": 0.5,

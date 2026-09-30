@@ -1,0 +1,19 @@
+{
+      "name":"装卸器",
+      "description": "?",
+      "health": 200,
+      "size":1,
+      "speed": 1.5,
+      "solid": true,
+      "update": true,
+      "hasItems": true,
+      "type":"Unloader",
+      	"research": {
+	    "parent":"石英传送带",
+	"requirements": [//研究花费
+		"石英/80",
+		"铁/120",
+		"钢/50"
+	]
+    },
+    }

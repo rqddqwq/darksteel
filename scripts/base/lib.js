@@ -1,4 +1,4 @@
-exports.modName = "钛金工业"
+exports.modName = "玄钢重工"
 
 exports.mod = Vars.mods.locateMod(exports.modName);
 
